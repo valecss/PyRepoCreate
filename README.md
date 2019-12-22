@@ -13,5 +13,5 @@ Open terminal window and type:
 </ul>
 
 <h3>Create project</h3>
-<code>create 'projectName'</code>
+Open terminal and type: <code>cd PyRepoCreate && create 'projectName'</code>
 <h2>Remember, change <code>CHANGEHERE</code> in <code>main.py</code> with path what you want!</h2>
