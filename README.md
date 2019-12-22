@@ -14,4 +14,4 @@ Open terminal window and type:
 
 <h3>Create project</h3>
 <code>create 'projectName'</code>
-<h2>Remember, change <code>pathFolder</code> in <code>main.py</code>!</h2>
+<h2>Remember, change <code>CHANGEHERE</code> in <code>main.py</code> with path what you want!</h2>
