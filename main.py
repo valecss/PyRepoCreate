@@ -3,16 +3,17 @@ import sys
 from github import Github
 
 path = os.getcwd() #Script path
-yourGitToken = "" #Insert here your github token
-git = Github(yourGitToken).get_user()
-username = ""
+user = "" #Insert your username
+password = "" #Insert your password
+git = Github(user, password).get_user()
+username = user
 
 def create():
     name = sys.argv[1] #Take the name of the project
 
 
     #Check if project exist
-    if name not in os.listdir(f"{thisPath}/.."):
+    if name not in os.listdir(f"{path}/.."):
         CHANGEHERE = os.chdir(f"{path}/../") #Change path after '../'
         os.mkdir(name) #Create project folder
         os.chdir(name) #Change direcotry to project folder
