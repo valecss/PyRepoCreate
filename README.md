@@ -4,7 +4,7 @@
 
 Open terminal window and type:
 <ul>
-<li><code>git clone git@github.com/KyrosDev/PyRepoCreate</code></li>
+<li><code>git clone https://github.com/valecss/PyRepoCreate.git</code></li>
 <li><code>cd PyRepoCreate</code></li>
 <li><code>python3 -m pip install -r requirements.txt</code></li>
 <li><code>nano main.py</code></li>
